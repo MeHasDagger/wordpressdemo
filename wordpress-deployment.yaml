@@ -35,4 +35,4 @@ spec:
             path: wp-config.php
       - name: wordpress-data
         persistentVolumeClaim:
-          claimName: mattias-pvc
+          claimName: wordpress-pvc
